@@ -137,4 +137,47 @@ header {
     border-color: #f5c542;
     background: rgba(245, 197, 66, 0.1);
 }
+.payment-section {
+    margin: 80px auto 40px;
+    padding: 40px 20px;
+    max-width: 700px;
+    text-align: center;
+    background: linear-gradient(180deg, #111, #000);
+    border-radius: 20px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.6);
+}
+
+.payment-section h3 {
+    color: #f5c542;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.payment-text {
+    color: #ddd;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.qr-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.qr-wrapper img {
+    width: 220px;
+    height: auto;
+    padding: 15px;
+    background: #fff;
+    border-radius: 16px;
+}
+
+.payment-note {
+    font-size: 14px;
+    color: #bbb;
+    margin-top: 15px;
+    line-height: 1.6;
+}
 
